@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JavaScript</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body{
+	    Background-color:#f5f5f5;
+}
+div.footer{
+      Background-color:black; /*set to background color*/
+	  color:white; /*set to the text color*/
+	  text-align:center; /*align text to center*/
+	  height:60px; /*set to footer height*/
+	  width:100%; /*set to the footer width*/
+	  bottom:0;
+	 
+	  left:0;
+}
+.navbar{
+         background-color:black;
+		 }
+</style>
+</head>
+<body>
+<!--navigation bar-->
+<nav class="navbar navbar-expand-lg ">
+   <img src="logo.png" width="80" height="70">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="signup.html">Sign up</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="login.html">Login</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Courses
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="html.html">HTML</a>
+          <a class="dropdown-item" href="css.html">CSS</a>
+          <a class="dropdown-item" href="#javascript.html">JavaScript</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!--using jumbotron-->
+<div class="jumbotron jumbotron-fluid">
+<div class="container">
+<h3 div class="display-4">Java script</h3>
+<p class="lead">Javascript is a simple programming language built into Netscape 2.0 and greater.
+ It is integrated with and embedded in HTML. It allows greater control of web page behavior than does HTML alone. 
+ Since the Javascript interpreter is part of Netscape, it is platform-independent: Javascript incorporated into HTML runs on Windows, 
+ Macintosh, and other Netscape-supported systems.
+</p>
+</div>
+	</div>
+	<div class="container-fluid">
+  <div class = "row">
+  <div class ="col-sm-12"> 
+  <video width="80%" height="100%" controls>
+  <source src="javavid.mp4" type="video/mp4">
+  
+  </div>
+  </div>
+</div>
+<hr>
+<!--using texts-->
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+<h3>About the language</h3>
+<h4>History</h3>
+<p class="text-justify">JavaScript was originally developed at Netscape, for use in their browser Netscape Navigator. This was in the mid-1990s, during the height of the browser wars, when each browser developer was attempting to win market share by creating unique features unavailable in other browsers. There was also a line of thinking during that period that browsers would be, in many ways, an extension of the operating system and general user experience. There seems to have been some thought that Netscape's browser would be part of a distributed operating system running a portable version of the Java environment. This would be complemented by a lightweight scripting language, which was officially called LiveScript and developed under the project code name Mocha.
+
+It isn't clear whether it was that plan, or a simple marketing ploy, but this “lightweight interpreted language” eventually got name “JavaScript,” even though the language had no real connection to Java.
+
+JavaScript was added to the Netscape Navigator browser in 1996, and Microsoft quickly reverse-engineered a JavaScript implementation for their Internet Explorer browser, which they called JScript. Unfortunately, the implementations were quite different. Different approaches to HTML and what became CSS complicated matters even more, as JavaScript exists primarily to manipulate objects within the document — different document models produced different results. It was common during this period to see websites instruct their users that the site “Works Best on Netscape” or “Works Best on Internet Explorer.” (AOL, which eventually bought Netscape, also had an in-app browser. But nothing worked the best on it.)
+
+Netscape submitted JavaScript to Ecma, as a potential international, industry-wide standard. In 1997, the standard version, called “ECMAScript” was released. There have been a number of subsequent version releases since then. Ecma, and not Netscape, now determines the course of the language.
+
+Thanks to a general trend toward browser standardization that began in the early 2000s, and was largely complete by the middle of the 2010s, most browsers implement ECMAScript (and the HTML Document Object Model) in largely similar ways. Today, you can be fairly confident that a JavaScript-based application written according to widely-recognized best practices will work on all major browsers.
+</p>
+</div></div></div>
+<br><br><hr>
+
+<!--using texts-->
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+<h3>Structure</h3>
+<p class="text-justify">JavaScript, like most modern programming languages, follows the structured programming model. The syntax is somewhat similar to C, with if, else, for, and while all behaving as may be expected.
+
+Unlike C, JavaScript mostly only supports function-level variable scope. Block level scoping was added somewhat recently but (as of this writing), it is still much safer to code as if this were not present.
+
+Speaking of variables, variables in JavaScript are dynamically typed. This means you don't have to declare a variable and its data type (string, number, etc.) ahead of actually assigning the value to the variable. This is quite different from C, but is pretty common among other interpreted scripting languages.
+
+Functions in JavaScript are first-class, which means that they can be passed as arguments to other functions or stored as variables. This allows (among other things) functions to be defined inside of other functions. This is used frequently in in-browser applications to cause functions to get defined at particular points. For example, in the following jQuery code, the inner function adjusts the target property of all on-page links so that they open in a new tab if they link to another domain. This function is created inside a function that is only called when the document is ready (fully loaded). This is a minor example (which happens to be used on this website), but illustrates something done frequently in JavaScript.
+</p>
+<br>
+<button type="button" class="btn btn-outline-success">
+<p class="text-left">jQuery(document).ready(function(e){ <br> 
+                         //Open outbound links in a new  <br>
+						 jQuery(document.links) <br>
+						     .filter(function() { <br>
+							     return this.hostname != <br>
+								 window.location.hostname; <br>
+							 }) <br>
+							 .attr('target', '_blank'); <br>
+							 
+					 });</p>
+</div>
+</div>
+</div>
+<br><br>
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+<h3>Javascript Events</h3>
+<p class="text-justify">JavaScript provides a way of interacting with, and manipulating, the content of a web page. This can be done through code stored in a linked .js file, in an on-page < script > code block, or by accessing JavaScript event triggers within the document's elements.
+
+An event is like a signal or message that something has happened. For example, every time your mouse clicks on an element of a page, the onclick event for that element is fired. Under normal circumstances, this doesn't cause anything else to happen. But you can use those events to trigger other code to run. You can write code that says (in essence): Everytime this thing happens, do this other thing.
+</p>
+<br>
+<p class="text-justify">You can imagine the possibilities here:
+<li>Every time this picture is clicked… load the next picture.</li>
+<li>Every time the mouse enters this area… change the color.</li>
+<li>Every time the mouse approaches the navigation bar … open a modal window with a special offer</li>
+<br>
+JavaScript, being a language designed for user-interation, is “event-driven”. There are a lot of events in JavaScript, and bunch of them are tied to HTML elements.
+</p>
+</div></div>	</div>
+
+	    <!--footer-->
+		<div class="container-fluid">
+		<div class="footer">
+		<div class="row">
+		<div class="col-sm-12">
+		<a href="aboutus.html">About Us</a> &nbsp | &nbsp
+		<a href="contactus.html">Contact Us</a> &nbsp | &nbsp
+		<a href="terms.html">Terms and privacy</a> &nbsp| &nbsp
+		</div>
+	</div>
+</div>
+</div>
+	
+	</body>
+	</html>
+		
